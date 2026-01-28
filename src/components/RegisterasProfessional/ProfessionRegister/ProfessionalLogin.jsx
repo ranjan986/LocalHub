@@ -31,7 +31,7 @@ function ProfessionalLogin() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         const response = await fetch(
-            'http://localhost:5000/api/handyman/login',
+            'https://local-hub-backend.onrender.com/api/handyman/login',
             {
                 method: "POST",
                 headers: {
