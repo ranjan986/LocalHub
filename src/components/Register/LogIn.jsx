@@ -31,7 +31,7 @@ function LogIn() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         const response = await fetch(
-            'http://localhost:5000/api/user/login',
+            'https://local-hub-backend.onrender.com/api/user/login',
             {
                 method: "POST",
                 headers: {
