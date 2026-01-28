@@ -47,7 +47,7 @@ function Otp(props) {
         const enteredOtp = otp.join("");
         // Send the entered OTP to the backend for verification
         const response = await fetch(
-            'http://localhost:5000/api/user/signup/verify',
+            'https://local-hub-backend.onrender.com/api/user/signup/verify',
             {
                 method: "POST",
                 headers: {
